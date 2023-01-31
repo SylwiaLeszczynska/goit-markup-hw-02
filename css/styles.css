@@ -3,6 +3,9 @@ body {
   color: #212121;
   background-color: #e5e5e5;
 }
+:root {
+  --brand-color: #212121;
+}
 .head {
   background-color: #ffffff;
 }
@@ -12,7 +15,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   color: #000000;
 }
 .logo-web {
@@ -22,8 +25,8 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  color: #212121;
+  line-height: 1.1;
+  color: var(--brand-color);
 }
 .navigation:hover {
   color: #2196f3;
@@ -35,7 +38,7 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   color: #757575;
 }
 .contacts:hover {
@@ -47,9 +50,9 @@ body {
 .categories {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
   text-align: center;
-  color: #212121;
+  color: var(--brand-color);
   cursor: pointer;
 }
 .categories:hover {
@@ -64,13 +67,13 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
-  color: #212121;
+  line-height: 2;
+  color: var(--brand-color);
 }
 .list-primary-items {
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   color: #757575;
 }
 .footer {
@@ -83,7 +86,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   color: #ffffff;
 }
 .address {
@@ -91,7 +94,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   color: #ffffff;
 }
 .contacts-footer {
@@ -100,7 +103,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
 }
 .contacts-footer:hover {
@@ -117,7 +120,7 @@ body {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -126,7 +129,7 @@ body {
   background: #2196f3;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -135,33 +138,33 @@ body {
 .list {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--brand-color);
 }
 .list-items {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: #757575;
 }
 .description {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--brand-color);
 }
 .employees {
   font-size: 16px;
-  line-height: 19px;
-  color: #212121;
+  line-height: 1.2;
+  color: var(--brand-color);
 }
 .employees-description {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   color: #757575;
 }
